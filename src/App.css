@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "MS Sans Serif", Tahoma, Verdana, Segoe, sans-serif;
+}
+
+body {
+  background-image: url(images/clouds2.jpeg);
+}
+
+.container {
+  background: teal;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 2px inset #fff;
+  background: silver;
+  color: #424242;
+  box-shadow: -1px -1px #000;
+}
+
+.header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #000;
+}
+
+.button-add {
+  border-width: 2px;
+  border-style: outset;
+  padding: 15px 15px;
+  border-color: buttonface;
+  border-right-color: #424242;
+  border-bottom-color: #424242;
+  background: silver;
+  color: black;
+  border-radius: 1px;
+}
+
+.button-add:hover {
+  border: 2px inset #fff;
+  background: silver;
+  color: #424242;
+  box-shadow: -1px -1px #000;
+}
+
+/* .button-add {
+  width: 20%;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 25px;
+  border: 0;
+  background-color: tan;
+  cursor: pointer;
+} */
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-complete, .button-delete, .button-edit {
+  color: teal;
+  margin-right: 10px;
+}
+
+.button-edit {
+  color: teal;
+  margin-right: 10px;
+}
+
+.button-edit {
+  color: teal;
+}
+
+.complete {
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+}
+
+.list {
+  width: 220px;
+  border: none;
+  color: #000;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  width: 70%;
+  padding: 15px 15px;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
